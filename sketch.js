@@ -36,7 +36,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  createCanvas(1000, 200);
 
   var message = "This is a message";
  console.log(message)
@@ -45,7 +45,7 @@ function setup() {
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   camera.position.x=trex.x;
-  camera.position.y=displayHeight/2;
+  camera.position.y=100;
   
 
   trex.scale = 0.5;
